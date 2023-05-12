@@ -1,8 +1,6 @@
-
-for i in range(1,5):
-    for j in range(1,5):
-        if(j<=5-i):
-            print("*", end="")
-        else:
-            print(" ", end="") 
-    print()        
+n = int(input())
+for i in range(1,n+1):
+    for j in range(2,2*i+1):
+        print("*",end="")
+   
+    print()    
